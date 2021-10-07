@@ -168,7 +168,7 @@ namespace SocialNetworkWPF
         }
         static public List<Comment> GetPostComments(ObjectId postId)
         {
-
+            comments.Clear();
             var post = db.GetEntityById<Post>("Posts", postId);
             var commentsIds = post.CommentsId;
             foreach(var commentId in commentsIds)
