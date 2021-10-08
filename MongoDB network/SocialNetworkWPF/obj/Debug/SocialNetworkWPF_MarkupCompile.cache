@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\tymni\source\repos\MongoDB network\SocialNetworkWPF\obj\Debug\
+C:\Users\tymni\Source\Repos\Neo4j\MongoDB network\SocialNetworkWPF\obj\Debug\
 SocialNetworkWPF
 none
 false
 DEBUG;TRACE
-C:\Users\tymni\source\repos\MongoDB network\SocialNetworkWPF\App.xaml
+C:\Users\tymni\Source\Repos\Neo4j\MongoDB network\SocialNetworkWPF\App.xaml
 51332676004
 
 102058020309
-171205162153
+27921395536
 commentsWindow.xaml;loginWindow.xaml;MainWindow.xaml;userInfoWindow.xaml;writePostWindow.xaml;
 
-False
+True
 
