@@ -40,6 +40,8 @@ namespace SocialNetworkWPF
             }
             FollowUnfollow();
 
+            GraphNumber.Text = GraphNumber.Text + DataControl.GetPathLength(Convert.ToString(currUserId), Convert.ToString(userFromStackId)) + " handshakes";
+
         }
         public void CreatePosts(Post post)
         {
@@ -118,6 +120,7 @@ namespace SocialNetworkWPF
                 followbtn.Background = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#FEF5E7"));
                 followbtn.Click += (sender, e) =>{
                     DataControl.FollowUser(currUserId, userFromStackId);
+                    DataControl.FollowUserGraph(Convert.ToString(currUserId), Convert.ToString(userFromStackId));
                     FollowUnfollow();
                 };
                 stackUserInfo.Children.Add(followbtn);
@@ -135,6 +138,7 @@ namespace SocialNetworkWPF
                 stackUserInfo.Children.Add(unfollowbtn);
                 unfollowbtn.Click += (sender, e) => {
                     DataControl.UnFollowUser(currUserId, userFromStackId);
+                    DataControl.UnFollowUserGraph(Convert.ToString(currUserId), Convert.ToString(userFromStackId));
                     FollowUnfollow();
                 };
                 Canvas.SetTop(unfollowbtn, 50);

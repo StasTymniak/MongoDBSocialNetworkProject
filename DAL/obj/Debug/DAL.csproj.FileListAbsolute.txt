@@ -52,3 +52,16 @@ C:\Users\tymni\Source\Repos\Neo4j\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cac
 C:\Users\tymni\Source\Repos\Neo4j\DAL\obj\Debug\DAL.csproj.CopyComplete
 C:\Users\tymni\Source\Repos\Neo4j\DAL\obj\Debug\DAL.dll
 C:\Users\tymni\Source\Repos\Neo4j\DAL\obj\Debug\DAL.pdb
+C:\Users\tymni\Source\Repos\Neo4j\DAL\bin\Debug\DAL.dll.config
+C:\Users\tymni\Source\Repos\Neo4j\DAL\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\tymni\Source\Repos\Neo4j\DAL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\tymni\Source\Repos\Neo4j\DAL\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\tymni\Source\Repos\Neo4j\DAL\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\tymni\Source\Repos\Neo4j\DAL\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\tymni\Source\Repos\Neo4j\DAL\bin\Debug\Newtonsoft.Json.xml
+C:\Users\tymni\Source\Repos\Neo4j\DAL\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\tymni\source\repos\Neo4j\DAL\bin\Debug\Neo4j.Driver.dll
+C:\Users\tymni\source\repos\Neo4j\DAL\bin\Debug\Neo4jClient.dll
+C:\Users\tymni\source\repos\Neo4j\DAL\bin\Debug\Neo4j.Driver.xml
+C:\Users\tymni\source\repos\Neo4j\DAL\bin\Debug\Neo4jClient.pdb
+C:\Users\tymni\source\repos\Neo4j\DAL\bin\Debug\Neo4jClient.xml

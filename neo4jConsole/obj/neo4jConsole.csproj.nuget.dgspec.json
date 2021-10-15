@@ -4,6 +4,26 @@
     "C:\\Users\\tymni\\source\\repos\\Neo4j\\neo4jConsole\\neo4jConsole.csproj": {}
   },
   "projects": {
+    "C:\\Users\\tymni\\source\\repos\\Neo4j\\DAL\\DAL.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tymni\\source\\repos\\Neo4j\\DAL\\DAL.csproj",
+        "projectName": "DAL",
+        "projectPath": "C:\\Users\\tymni\\source\\repos\\Neo4j\\DAL\\DAL.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\tymni\\source\\repos\\Neo4j\\DTO\\DTO.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tymni\\source\\repos\\Neo4j\\DTO\\DTO.csproj",
+        "projectName": "DTO",
+        "projectPath": "C:\\Users\\tymni\\source\\repos\\Neo4j\\DTO\\DTO.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
     "C:\\Users\\tymni\\source\\repos\\Neo4j\\neo4jConsole\\neo4jConsole.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -33,7 +53,14 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\tymni\\source\\repos\\Neo4j\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\tymni\\source\\repos\\Neo4j\\DAL\\DAL.csproj"
+              },
+              "C:\\Users\\tymni\\source\\repos\\Neo4j\\DTO\\DTO.csproj": {
+                "projectPath": "C:\\Users\\tymni\\source\\repos\\Neo4j\\DTO\\DTO.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -46,9 +73,13 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Neo4j.Driver.Simple": {
+              "target": "Package",
+              "version": "[4.3.2, )"
+            },
             "Neo4jClient": {
               "target": "Package",
-              "version": "[4.1.18, )"
+              "version": "[3.1.0.6, )"
             }
           },
           "imports": [

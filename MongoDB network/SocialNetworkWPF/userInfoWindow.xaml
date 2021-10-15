@@ -20,6 +20,7 @@
                     <ImageBrush ImageSource="C:\Users\tymni\source\repos\MongoDB network\SocialNetworkWPF\bin\Debug\Images\user.png" />
                 </Canvas.Background>
             </Canvas>
+            <TextBlock Name="GraphNumber" Canvas.Left="262" TextWrapping="Wrap" Text="You know each other through  " Canvas.Top="10"/>
         </Canvas>
         <ScrollViewer VerticalScrollBarVisibility="Hidden"  Name="AllPostScroll" Grid.Row="1" Width="500" >
             <StackPanel Name="AllPostStack" Width="470" >

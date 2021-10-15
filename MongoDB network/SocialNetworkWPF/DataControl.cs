@@ -13,13 +13,14 @@ namespace SocialNetworkWPF
     static public class DataControl
     {
         static MongoCRUD db;
+        static Neo4jCRUD graph;
         static List<Post> posts;
         static List<User> users;
         static List<Comment> comments = new List<Comment>();
         static DataControl()
         {
             db = new MongoCRUD("SocialNetwork");
-
+            graph = new Neo4jCRUD();
         }
 
         static public List<User> GetUsers()
@@ -148,6 +149,10 @@ namespace SocialNetworkWPF
             userrFollowing.FollowingsId.Add(userFollowedId);
             db.UpsertEntity("Users", userrFollowing.Id, userrFollowing);
         }
+        static public void FollowUserGraph(string userId, string userFollowedId)
+        {
+            graph.CreateRelation(userId, userFollowedId);
+        }
         static public void UnFollowUser(ObjectId userId, ObjectId userFollowedId)
         {
             User userFollowed = db.GetEntityById<User>("Users", userFollowedId);
@@ -157,7 +162,10 @@ namespace SocialNetworkWPF
             userrFollowing.FollowingsId.Remove(userFollowedId);
             db.UpsertEntity("Users", userrFollowing.Id, userrFollowing);
         }
-
+        static public void UnFollowUserGraph(string userId, string userFollowedId)
+        {
+            graph.DeleteRelation(userId,userFollowedId);
+        }
 
         static public void AddComment(Comment comment,ObjectId postId)
         {
@@ -180,5 +188,9 @@ namespace SocialNetworkWPF
             return comments;
         }
         
+        static public string GetPathLength(string userId, string userFollowedId)
+        {
+            return Convert.ToString(graph.PathLength(userId, userFollowedId));
+        }
     }
 }

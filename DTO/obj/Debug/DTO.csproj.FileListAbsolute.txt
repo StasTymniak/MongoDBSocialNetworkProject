@@ -52,3 +52,11 @@ C:\Users\tymni\Source\Repos\Neo4j\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cac
 C:\Users\tymni\Source\Repos\Neo4j\DTO\obj\Debug\DTO.csproj.CopyComplete
 C:\Users\tymni\Source\Repos\Neo4j\DTO\obj\Debug\DTO.dll
 C:\Users\tymni\Source\Repos\Neo4j\DTO\obj\Debug\DTO.pdb
+C:\Users\tymni\Source\Repos\Neo4j\DTO\bin\Debug\DTO.dll.config
+C:\Users\tymni\Source\Repos\Neo4j\DTO\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\tymni\Source\Repos\Neo4j\DTO\bin\Debug\Newtonsoft.Json.dll
+C:\Users\tymni\Source\Repos\Neo4j\DTO\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\tymni\Source\Repos\Neo4j\DTO\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\tymni\Source\Repos\Neo4j\DTO\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\tymni\Source\Repos\Neo4j\DTO\bin\Debug\Newtonsoft.Json.xml
+C:\Users\tymni\Source\Repos\Neo4j\DTO\bin\Debug\System.Threading.Tasks.Extensions.xml

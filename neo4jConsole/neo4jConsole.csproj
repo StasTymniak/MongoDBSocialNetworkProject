@@ -6,7 +6,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Neo4jClient" Version="4.1.18" />
+    <PackageReference Include="Neo4j.Driver.Simple" Version="4.3.2" />
+    <PackageReference Include="Neo4jClient" Version="3.1.0.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DAL\DAL.csproj" />
+    <ProjectReference Include="..\DTO\DTO.csproj" />
   </ItemGroup>
 
 </Project>
